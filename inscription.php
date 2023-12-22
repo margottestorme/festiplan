@@ -113,7 +113,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container">
         <h2>Bienvenue sur le Planificateur de Fêtes</h2>
         <div class="form_container">
-            <h3>Créer ton compte</h3>
+            <h3>Créer ton compte utilisateur</h3>
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                 <div class="form-group">
                     <label>Pseudo</label>
